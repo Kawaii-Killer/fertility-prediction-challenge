@@ -21,7 +21,6 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
-import numpy as np
 
 
 def clean_df(df, background_df=None):
